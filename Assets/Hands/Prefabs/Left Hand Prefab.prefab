@@ -388,8 +388,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _handAnimator: {fileID: -54973587348974290}
-  _triggerActionRef: {fileID: 0}
-  _gripActionRef: {fileID: 0}
+  _triggerActionRef: {fileID: -4289430672226363583, guid: c348712bda248c246b8c49b3db54643f,
+    type: 3}
+  _gripActionRef: {fileID: 6558622148059887818, guid: c348712bda248c246b8c49b3db54643f,
+    type: 3}
 --- !u!114 &3844913789855216718
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -403,8 +405,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   handAnimator: {fileID: -54973587348974290}
-  triggerActionRef: {fileID: 0}
-  gripActionRef: {fileID: 0}
+  triggerActionRef: {fileID: -5982496924579745919, guid: c348712bda248c246b8c49b3db54643f,
+    type: 3}
+  gripActionRef: {fileID: -6131295136447488360, guid: c348712bda248c246b8c49b3db54643f,
+    type: 3}
 --- !u!1 &109434732395284511
 GameObject:
   m_ObjectHideFlags: 0
