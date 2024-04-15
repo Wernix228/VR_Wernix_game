@@ -19,7 +19,7 @@ namespace _3rd_Party_Assets.Gun___Target.Scripts
             _audioSource = GetComponent<AudioSource>();
             _particleSystem = GetComponent<ParticleSystem>();
 
-            _randomRotation = new Vector3(Random.Range(0.1f, 1f), Random.Range(0.1f, 1f), Random.Range(0.1f, 1f));
+            _randomRotation = new Vector3(Random.Range(-1f, 0.1f), 0, Random.Range(-1f, 0.1f));
         }
 
         private void Update() => Rotate();
